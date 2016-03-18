@@ -15,6 +15,7 @@
 		B6EE74D61C9BB528003EB592 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6EE74D41C9BB528003EB592 /* LaunchScreen.storyboard */; };
 		B6EE74E11C9BB528003EB592 /* iOS______2Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = B6EE74E01C9BB528003EB592 /* iOS______2Tests.m */; };
 		B6EE74EC1C9BB528003EB592 /* iOS______2UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B6EE74EB1C9BB528003EB592 /* iOS______2UITests.m */; };
+		B6EE74FC1C9BB556003EB592 /* PooCodeView.m in Sources */ = {isa = PBXBuildFile; fileRef = B6EE74FB1C9BB556003EB592 /* PooCodeView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		B6EE74E71C9BB528003EB592 /* iOS 图片验证码2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS 图片验证码2UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B6EE74EB1C9BB528003EB592 /* iOS______2UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "iOS______2UITests.m"; sourceTree = "<group>"; };
 		B6EE74ED1C9BB528003EB592 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6EE74FA1C9BB556003EB592 /* PooCodeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PooCodeView.h; sourceTree = "<group>"; };
+		B6EE74FB1C9BB556003EB592 /* PooCodeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PooCodeView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,7 @@
 		B6EE74C51C9BB528003EB592 /* iOS 图片验证码2 */ = {
 			isa = PBXGroup;
 			children = (
+				B6EE74F91C9BB556003EB592 /* PooCodeView */,
 				B6EE74C91C9BB528003EB592 /* AppDelegate.h */,
 				B6EE74CA1C9BB528003EB592 /* AppDelegate.m */,
 				B6EE74CC1C9BB528003EB592 /* ViewController.h */,
@@ -138,6 +142,15 @@
 				B6EE74ED1C9BB528003EB592 /* Info.plist */,
 			);
 			path = "iOS 图片验证码2UITests";
+			sourceTree = "<group>";
+		};
+		B6EE74F91C9BB556003EB592 /* PooCodeView */ = {
+			isa = PBXGroup;
+			children = (
+				B6EE74FA1C9BB556003EB592 /* PooCodeView.h */,
+				B6EE74FB1C9BB556003EB592 /* PooCodeView.m */,
+			);
+			path = PooCodeView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,6 +286,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6EE74FC1C9BB556003EB592 /* PooCodeView.m in Sources */,
 				B6EE74CE1C9BB528003EB592 /* ViewController.m in Sources */,
 				B6EE74CB1C9BB528003EB592 /* AppDelegate.m in Sources */,
 				B6EE74C81C9BB528003EB592 /* main.m in Sources */,

@@ -7,18 +7,28 @@
 //
 
 #import "ViewController.h"
+#import "PooCodeView/PooCodeView.h"
 
 @interface ViewController ()
-
+{
+    PooCodeView *_pooCodeView;
+}
 @end
 
 @implementation ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+   _pooCodeView = [[PooCodeView alloc] initWithFrame:CGRectMake(50, 100, 82, 32)];
+    UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc] initWithTarget:self action:@selector(tapClick:)];
+    [_pooCodeView addGestureRecognizer:tap];
+    [self.view addSubview:_pooCodeView];
+
 }
 
+- (void)tapClick:(UITapGestureRecognizer*)tap{
+    [_pooCodeView changeCode];
+}
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
